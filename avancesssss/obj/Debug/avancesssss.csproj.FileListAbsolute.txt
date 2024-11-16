@@ -39,3 +39,17 @@ C:\Users\USER\Downloads\avancesssss\avancesssss\avancesssss\obj\Debug\avancessss
 C:\Users\USER\Downloads\avancesssss\avancesssss\avancesssss\obj\Debug\avancesssss.csproj.CoreCompileInputs.cache
 C:\Users\USER\Downloads\avancesssss\avancesssss\avancesssss\obj\Debug\avancesssss.exe
 C:\Users\USER\Downloads\avancesssss\avancesssss\avancesssss\obj\Debug\avancesssss.pdb
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\bin\Debug\avancesssss.exe.config
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\bin\Debug\avancesssss.exe
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\bin\Debug\avancesssss.pdb
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.csproj.AssemblyReference.cache
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.Form1.resources
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.Form2.resources
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.Form3.resources
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.Form4.resources
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.Form5.resources
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.Properties.Resources.resources
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.csproj.GenerateResource.cache
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.exe
+C:\Users\sergi\OneDrive\Documents\GitHub\gestion-monedas\avancesssss\obj\Debug\avancesssss.pdb
