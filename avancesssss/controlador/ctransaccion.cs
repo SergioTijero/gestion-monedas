@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace avancesssss.modelo
 {
-    internal class recarga_moneda
+    internal class ctransaccion
     {
     }
 }
