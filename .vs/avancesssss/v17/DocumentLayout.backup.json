@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|c:\\users\\sergi\\onedrive\\documents\\github\\gestion-monedas\\avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\Form1.cs",
+              "RelativeDocumentMoniker": "avancesssss\\Form1.cs",
+              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "avancesssss\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T03:01:08.084Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

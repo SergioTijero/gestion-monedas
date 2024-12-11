@@ -15,7 +15,7 @@ namespace avancesssss.modelo
         {
             this.id = "NN";
             this.nombres = "NN";
-            this.saldo_actual = 0;
+            this.saldo_actual= 0;
         }
 
         public usuario_cliente(string id, string nombres, string apellidos, double saldo_actual)

@@ -7,18 +7,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace avancesssss
+namespace avancesssss.controlador
 {
     internal class cgestor
     {
         private conexion x;
-        private cgestor()
+        public cgestor()
         {
             x = new conexion();
         }
         public void insert(gestor dato)
         {
-            x.consulta("insert into gestor values('" +
+            x.Consulta("insert into usuarios_Gestor values('" +
                 dato.Id + "','" +
                 dato.Nombre + "','" +
                 dato.Login + "','" +
@@ -26,37 +26,44 @@ namespace avancesssss
         }
         public void update(gestor dato)
         {
-            x.consulta("update gestor set " +
-                "id_Moneda= '" + dato.Id + "'," +
-                "nombre_Moneda='" + dato.Nombre+ "', '" +
-                "precio_Actual= '" + dato.Login+ "', '" +
-                "cantidad= '" + dato.Acceso + "', '");
+            x.Consulta("update usuarios_Gestor set " +
+                "id= '"+dato.Id +"'," +
+                "nombres='" + dato.Nombre + "', " +
+                "login= '" + dato.Login + "' where " +
+                "acceso= '" + dato.Acceso + "'");
         }
         public void delete(gestor dato)
         {
-            x.consulta("delete from gestor where " +
-               "id_Moneda='" + dato.Id + "'");
+            x.Consulta("delete from usuarios_Gestor where " +
+               "id='" + dato.Id + "'");
         }
         public void select(DataGridView datos)
         {
-            datos.DataSource = x.consulta("select * from gestor");
+            datos.DataSource = x.Consulta("select * from usuarios_Gestor");
         }
         public void select(ComboBox datos)
         {
-            datos.DataSource = x.consulta("select * from gestor");
+            datos.DataSource = x.Consulta("select * from usuarios_Gestor");
             datos.ValueMember = "id";
-            datos.DisplayMember = "nombre";
+            datos.DisplayMember = "nombres";
         }
         public void select(DataGridView datos, gestor dato)
         {
-            datos.DataSource = x.consulta("select * from gestor where" +
-                " id='" + dato.Id+ "' or" +
-                " nombre='" + dato.Nombre+ "' or" +
-                " login='" + dato.Login+ "' or" +
-                " acceso='" + dato.Acceso+ "'");
+            datos.DataSource = x.Consulta("select * from usuarios_Gestor where" +
+                " id='" + dato.Id + "' or" +
+                " nombres='" + dato.Nombre + "' or" +
+                " login='" + dato.Login + "' or" +
+                " acceso='" + dato.Acceso + "'");
 
         }
+        public void select(DataGridView datos, string dato)
+        {
+            datos.DataSource = x.Consulta("select * from usuarios_Gestor where" +
+                " id like '%" + dato + "%' or" +
+                " nombres like '%" + dato + "%' or" +
+                " login like '%" + dato + "%' or" +
+                " acceso like '%" + dato + "%'");
 
+        }
     }
 }
- 

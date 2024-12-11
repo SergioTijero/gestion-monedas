@@ -6,7 +6,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;  
 using System.Windows.Forms;
 
 namespace avancesssss
@@ -16,8 +16,10 @@ namespace avancesssss
         // Diccionario para almacenar usuarios y contraseñas válidos
         private Dictionary<string, string> validUsers;
 
+        public object Me { get; private set; }
+
         public Form1()
-        {
+        {   
             InitializeComponent();
             InitializeValidUsers();
         }
@@ -27,7 +29,7 @@ namespace avancesssss
             // Inicializamos el diccionario con usuarios y contraseñas válidos
             validUsers = new Dictionary<string, string>
             {
-                { "usuario1", "contraseña1" },
+                { "usuario", "12345" },
                 { "usuario2", "contraseña2" },
                 { "usuario3", "contraseña3" }
             };
@@ -70,9 +72,39 @@ namespace avancesssss
             Application.Exit();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            vistas.frmMonedas objMonedas = new vistas.frmMonedas();
+            objMonedas.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnclose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnminimize_Click(object sender, EventArgs e)
+        {
         }
     }
 }

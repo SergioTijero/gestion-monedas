@@ -12,49 +12,58 @@ namespace avancesssss.controlador
     internal class cmoneda
     {
         private conexion x;
-        private cmoneda()
+        public cmoneda()
         {
             x = new conexion();
         }
-        public void insert( moneda dato)
+        public void insert(moneda dato)
         {
-            x.consulta("insert into moneda values('" +
+            x.Consulta("insert into monedas values('" +
                 dato.Id_Moneda + "','" +
                 dato.Nombre_Moneda + "','" +
-                dato.Precio_Actual + "','" +
-                dato.Cantidad + "')");
-        }
+                Convert.ToDouble(dato.Precio_Actual) + "','" +
+                Convert.ToInt32(dato.Cantidad) + "')");
+        }   
         public void update(moneda dato)
         {
-            x.consulta("update moneda set " +
-                "id_Moneda= '" + dato.Id_Moneda + "'," +
-                "nombre_Moneda='" + dato.Nombre_Moneda + "', '" +
-                "precio_Actual= '" + dato.Precio_Actual + "', '" +
-                "cantidad= '" + dato.Cantidad + "', '");
+            x.Consulta("update monedas set " +
+                "nombre_Moneda='" + dato.Nombre_Moneda+ "', " +
+                "precio_Actual= '" + Convert.ToDouble(dato.Precio_Actual)+ "', " +
+                "cantidad= '" + Convert.ToInt32(dato.Cantidad) + "' where " +
+                "id_Moneda= '"+dato.Id_Moneda+"'");
         }
         public void delete(moneda dato)
         {
-            x.consulta("delete from moneda where " +
+            x.Consulta("delete from monedas where " +
                "id_Moneda='" + dato.Id_Moneda + "'");
         }
         public void select(DataGridView datos)
         {
-            datos.DataSource = x.consulta("select * from moneda");
+            datos.DataSource = x.Consulta("select * from monedas");
+            //MessageBox.Show("exito");
         }
-        public void select(ComboBox datos)
+        public void select (ComboBox datos)
         {
-            datos.DataSource = x.consulta("select * from moneda");
+            datos.DataSource = x.Consulta("select * from monedas");
             datos.ValueMember = "id_Moneda";
             datos.DisplayMember = "nombre_Moneda";
         }
-        public void select(DataGridView datos, moneda dato)
-        {
-            datos.DataSource = x.consulta("select * from moneda where" +
+        public void select(DataGridView datos, moneda dato){
+
+            datos.DataSource = x.Consulta("select * from monedas where" +
                 " id_Moneda='" + dato.Id_Moneda + "' or" +
                 " nombre_Moneda='" + dato.Nombre_Moneda + "' or" +
                 " precio_Actual='" + dato.Precio_Actual + "' or" +
                 " cantidad='" + dato.Cantidad + "'");
 
+        }
+        public void select(DataGridView datos, string dato)
+        {
+            datos.DataSource = x.Consulta("select * from monedas where" +
+                " id_Moneda like '%" + dato + "%' or" +
+                " nombre_Moneda like '%" + dato + "%' or" +
+                " precio_Actual like '%" + dato + "%' or" +
+                " cantidad like '%" + dato + "%'");
         }
 
     }

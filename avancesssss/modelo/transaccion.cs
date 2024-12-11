@@ -9,7 +9,7 @@ namespace avancesssss.modelo
     internal class transaccion
     {
         private string id_transaccion, id_moneda, ide_user_gestor, ide_user_cliente;
-        private int fecha;
+        private DateTime fecha;
         private double precio_venta, cantidad;
 
         public transaccion()
@@ -18,11 +18,11 @@ namespace avancesssss.modelo
             this.id_moneda = "NN";
             this.ide_user_gestor = "NN";
             this.ide_user_cliente = "NN";
-            this.fecha = 0;
+            this.fecha = DateTime.MinValue;
             this.precio_venta = 0;
             this.cantidad = 0;
         }
-        public transaccion(string id_transaccion, string id_moneda, string ide_user_gestor, string ide_user_cliente, int fecha, double precio_venta, double cantidad)
+        public transaccion(string id_transaccion, string id_moneda, string ide_user_gestor, string ide_user_cliente, DateTime fecha, double precio_venta, double cantidad)
         {
             this.id_transaccion = id_transaccion;
             this.id_moneda = id_moneda;
@@ -37,7 +37,7 @@ namespace avancesssss.modelo
         public string Id_moneda { get => id_moneda; set => id_moneda = value; }
         public string Ide_user_gestor { get => ide_user_gestor; set => ide_user_gestor = value; }
         public string Ide_user_cliente { get => ide_user_cliente; set => ide_user_cliente = value; }
-        public int Fecha { get => fecha; set => fecha = value; }
+        public DateTime Fecha { get => fecha; set => fecha = value; }
         public double Precio_venta { get => precio_venta; set => precio_venta = value; }
         public double Cantidad { get => cantidad; set => cantidad = value; }
     }

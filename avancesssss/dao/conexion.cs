@@ -19,7 +19,7 @@ namespace avancesssss.dao
         {
             try
             {
-                conn = new SqlConnection("Data Source=PC08-LAB302;Initial Catalog=DESKTOP-8LBQ1KA\\MSSQLSERVER04;Integrated Security=True");
+                conn = new SqlConnection("Data Source=DESKTOP-8LBQ1KA\\MSSQLSERVER04;Initial Catalog=Tienda;Integrated Security=True");
                 conn.Open();
             }
             catch (Exception ex)
@@ -28,7 +28,7 @@ namespace avancesssss.dao
             }
         }
 
-        public DataTable consulta(string sql)
+        public DataTable Consulta(string sql)
         {
             cmd = new SqlCommand(sql, conn);
             adapter = new SqlDataAdapter(cmd);

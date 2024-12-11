@@ -8,12 +8,12 @@ namespace avancesssss
 {
     internal class gestor
     {
-        private string id, nombre, login, acceso;
+        public string id, nombres, login, acceso;
 
         public gestor()
         {
             this.id = "NN";
-            this.nombre = "NN";
+            this.nombres = "NN";
             this.login = "NN";
             this.acceso = "NN";
         }
@@ -21,13 +21,13 @@ namespace avancesssss
         public gestor(string id, string nombre, string login, string acceso)
         {
             this.id = id;
-            this.nombre = nombre;
+            this.nombres = nombre;
             this.login = login;
             this.acceso = acceso;
         }
 
         public string Id { get => id; set => id = value; }
-        public string Nombre { get => nombre; set => nombre = value; }
+        public string Nombre { get => nombres; set => nombres = value; }
         public string Login { get => login; set => login = value; }
         public string Acceso { get => acceso; set => acceso = value; }
     }
