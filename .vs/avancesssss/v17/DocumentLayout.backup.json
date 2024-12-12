@@ -3,27 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|c:\\users\\sergi\\onedrive\\documents\\github\\gestion-monedas\\avancesssss\\vistas\\frmmonedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\vistas\\frmmonedas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|c:\\users\\sergi\\onedrive\\documents\\github\\gestion-monedas\\avancesssss\\dao\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\dao\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|c:\\users\\sergi\\onedrive\\documents\\github\\gestion-monedas\\avancesssss\\vistas\\frmmonedas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\vistas\\frmmonedas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|c:\\users\\sergi\\onedrive\\documents\\github\\gestion-monedas\\avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\controlador\\cusuario_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\controlador\\cusuario_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|c:\\users\\sergi\\onedrive\\documents\\github\\gestion-monedas\\avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FB4ED601-9710-460B-9613-B0BC92C69701}|avancesssss\\avancesssss.csproj|solutionrelative:avancesssss\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,81 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmMonedas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\vistas\\frmMonedas.Designer.cs",
-              "RelativeDocumentMoniker": "avancesssss\\vistas\\frmMonedas.Designer.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\vistas\\frmMonedas.Designer.cs",
-              "RelativeToolTip": "avancesssss\\vistas\\frmMonedas.Designer.cs",
-              "ViewState": "AgIAADIBAAAAAAAAAAAowEABAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T00:39:38.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmMonedas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\vistas\\frmMonedas.cs",
-              "RelativeDocumentMoniker": "avancesssss\\vistas\\frmMonedas.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\vistas\\frmMonedas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "avancesssss\\vistas\\frmMonedas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T00:37:48.036Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "conexion.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\dao\\conexion.cs",
-              "RelativeDocumentMoniker": "avancesssss\\dao\\conexion.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\dao\\conexion.cs",
-              "RelativeToolTip": "avancesssss\\dao\\conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T00:36:01.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\Form1.cs",
-              "RelativeDocumentMoniker": "avancesssss\\Form1.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\Form1.cs",
-              "RelativeToolTip": "avancesssss\\Form1.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:12:25.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "cusuario_cliente.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\controlador\\cusuario_cliente.cs",
-              "RelativeDocumentMoniker": "avancesssss\\controlador\\cusuario_cliente.cs",
-              "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\controlador\\cusuario_cliente.cs",
-              "RelativeToolTip": "avancesssss\\controlador\\cusuario_cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:22:15.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\Form1.cs",
               "RelativeDocumentMoniker": "avancesssss\\Form1.cs",
               "ToolTip": "C:\\Users\\sergi\\OneDrive\\Documents\\GitHub\\gestion-monedas\\avancesssss\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "avancesssss\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T03:01:08.084Z"
+              "WhenOpened": "2024-12-10T03:01:08.084Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
