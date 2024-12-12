@@ -19,7 +19,7 @@ namespace avancesssss.dao
         {
             try
             {
-                conn = new SqlConnection("Data Source=DESKTOP-8LBQ1KA\\MSSQLSERVER04;Initial Catalog=Tienda;Integrated Security=True");
+                conn = new SqlConnection("Data Source=PC_SERGIO;Initial Catalog=Tienda;Integrated Security=True");
                 conn.Open();
             }
             catch (Exception ex)
